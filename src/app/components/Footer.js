@@ -33,8 +33,8 @@ export default function Footer() {
   const resourceLinks = [
     { name: "Blog", href: "/resources/blog" },
     { name: "FAQs", href: "/resources/faqs" },
-    { name: "Guides", href: "/resources/guides" },
-    { name: "Help & Support", href: "/resources/support" },
+    { name: "Guides", href: "/resources/blog/atm-machine-business-india-complete-guide-2026/" },
+    { name: "Help & Support", href: "/apply-now" },
   ];
 
   return (
@@ -65,19 +65,30 @@ export default function Footer() {
           {/* COLUMN 1: BRAND INFO */}
           <div className="space-y-6">
             <Link href="/" className="inline-flex items-center gap-3">
-              <div className="relative w-10 h-10">
-                <Image
-                  src="/img/logo.webp"
-                  alt="EPS ATM Franchise Logo"
-                  fill
-                  className="object-contain"
-                  sizes="40px"
-                />
-              </div>
-              <span className="text-2xl font-extrabold tracking-wide text-white">
-                EPS ATM
-              </span>
-            </Link>
+
+  {/* Logo */}
+  <div className="relative w-13 h-13">
+    <Image
+      src="/img/logo.webp"
+      alt="EPS ATM Franchise Logo"
+      fill
+      className="object-contain"
+      sizes="44px"
+      priority
+    />
+  </div>
+
+  {/* Brand Text */}
+  <div className="leading-tight">
+    <div className="text-xl font-extrabold tracking-tight text-white">
+      EPS <span className="text-red-700">ATM Franchise</span>
+    </div>
+    <div className="text-[11px] font-medium tracking-wider text-white/70 uppercase">
+      Authorized Partner Network
+    </div>
+  </div>
+
+</Link>
 
             <p className="text-blue-100/80 text-sm leading-relaxed max-w-xs">
               India’s trusted partner for White Label ATM deployment. We empower entrepreneurs with secure, profitable, and hassle-free ATM franchise opportunities.
@@ -168,7 +179,7 @@ export default function Footer() {
                 <div>
                   <p className="text-sm font-semibold text-white">Email Us</p>
                   <a href="mailto:littlemelody0000@gmail.com" className="text-sm text-blue-100/70 hover:text-white transition-colors">
-                    littlemelody0000@gmail.com
+                     maktin.help@gmail.com
                   </a>
                 </div>
               </li>

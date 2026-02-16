@@ -1,0 +1,25 @@
+{
+  "name": "EPS ATM Franchise",
+  "short_name": "EPS ATM",
+  "description": "Start your ATM Franchise business with low investment. RBI authorized White Label ATM dealership with 24/7 support across India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d134c",
+  "icons": [
+    {
+      "src": "/img/logo1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/logo1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["business", "finance"]
+}
