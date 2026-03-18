@@ -1,4 +1,4 @@
-import ContactForm from "../components/ContactForm";
+import ContactForm from "@/components/ContactForm";
 import { Mail, MapPin, Phone, Clock, CheckCircle } from "lucide-react";
 
 // 1. SEO METADATA - Targeted at conversion keywords

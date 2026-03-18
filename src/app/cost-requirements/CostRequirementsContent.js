@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { CheckCircle2, ShieldCheck, Zap, MapPin, FileText, Server, ArrowRight, XCircle, Info } from "lucide-react";
-import Care360Section from "../components/Care360Section";
+import Care360Section from "@/components/Care360Section";
 
 
 // Optimization: Move variants outside to prevent re-creation

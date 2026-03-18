@@ -56,6 +56,7 @@ export default function Navbar() {
               width={60}
               height={60}
               priority
+              style={{ width: "60px", height: "auto" }}
               className="object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div className="leading-tight">

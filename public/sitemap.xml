@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- HOMEPAGE -->
+  <url>
+    <loc>https://epsatmfranchise.com/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- CORE PAGES -->
+  <url><loc>https://epsatmfranchise.com/about-us</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/cost-requirements</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/apply-now</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/faqs</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/privacy-policy</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/terms-and-conditions</loc><priority>0.9</priority></url>
+  <url><loc>https://epsatmfranchise.com/disclaimer</loc><priority>0.9</priority></url>
+  <!-- BLOG POSTS -->
+  <url><loc>https://epsatmfranchise.com/resources/blog/atm-franchise-profit-india-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/hitachi-vs-eps-atm-franchise-2025-comparison</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/how-to-start-atm-franchise-in-india-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/atm-franchise-business-guide-india-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/atm-franchise-rural-india-2026-opportunity</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/atm-franchise-pros-and-cons-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/how-to-choose-best-location-atm-franchise</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/rbi-guidelines-white-label-atms-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://epsatmfranchise.com/resources/blog/top-white-label-atm-providers-india-compare</loc><priority>0.8</priority></url>
+  <!-- LOCATION PAGES -->
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-uttar-pradesh</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-bihar</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-west-bengal</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-maharashtra</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-tamil-nadu</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-kerala</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-karnataka</loc><priority>0.7</priority></url>
+  <url><loc>https://epsatmfranchise.com/atm-franchise-in-gujarat</loc><priority>0.7</priority></url>
+</urlset>

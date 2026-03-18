@@ -2,21 +2,21 @@ import ATMFranchiseContent from "./ATMFranchiseContent";
 
 export const metadata = {
   title:
-    "ATM Franchise Cost, Commission & Profit in India (2025) | EPS Complete Guide",
+    "ATM Franchise in India 2025 – Cost, Commission & Profit Complete Guide",
 
   description:
-    "Detailed guide to ATM Franchise in India. Learn about investment cost (₹3–5 Lakhs), commission per transaction, monthly profit potential, site requirements, and step-by-step installation process with EPS.",
+    "Complete ATM franchise guide for India. Learn investment cost (₹3–5 Lakhs), commission per transaction, monthly profit, ROI calculation, site requirements and installation process.",
 
   alternates: {
-    canonical: "https://epsatmfranchise.com/atm-franchise",
+    canonical: "https://epsatmfranchise.com/atm-franchise/",
   },
 
   openGraph: {
     title:
       "ATM Franchise Cost & Profit Guide (2025) – EPS",
     description:
-      "Explore ATM franchise investment, commission structure, ROI calculation, and installation process in India.",
-    url: "https://epsatmfranchise.com/atm-franchise",
+      "Explore ATM franchise investment, commission structure, ROI model and installation process in India.",
+    url: "https://epsatmfranchise.com/atm-franchise/",
     type: "article",
   },
 
@@ -24,7 +24,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "ATM Franchise Cost & Profit Guide 2025",
     description:
-      "Complete breakdown of ATM franchise investment, earnings, and installation process in India.",
+      "Breakdown of ATM franchise investment, commission earnings and installation process in India.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -32,52 +37,58 @@ export default function ATMFranchisePage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+
       {
         "@type": "BreadcrumbList",
+        "@id": "https://epsatmfranchise.com/atm-franchise/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://epsatmfranchise.com"
+            "item": "https://epsatmfranchise.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "ATM Franchise Guide",
-            "item": "https://epsatmfranchise.com/atm-franchise"
+            "item": "https://epsatmfranchise.com/atm-franchise/"
           }
         ]
       },
+
       {
         "@type": "Article",
-        "@id": "https://epsatmfranchise.com/atm-franchise#article",
+        "@id": "https://epsatmfranchise.com/atm-franchise/#article",
         "headline":
-          "ATM Franchise Cost, Commission & Profit in India (2025 Guide)",
+          "ATM Franchise in India 2025 – Cost, Commission & Profit Guide",
         "description":
-          "Comprehensive guide explaining ATM franchise investment, transaction commission, ROI model, and installation process in India.",
+          "Comprehensive guide explaining ATM franchise investment, commission per transaction, ROI model and installation process in India.",
+        "image": "https://epsatmfranchise.com/og-banner.jpg",
         "author": {
-          "@type": "Organization",
-          "name": "EPS ATM Franchise"
+          "@id": "https://epsatmfranchise.com/#organization"
         },
         "publisher": {
-          "@type": "Organization",
-          "name": "EPS ATM Franchise",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://epsatmfranchise.com/img/logo.webp"
-          }
+          "@id": "https://epsatmfranchise.com/#organization"
         },
-        "mainEntityOfPage":
-          "https://epsatmfranchise.com/atm-franchise"
+        "datePublished": "2025-01-01",
+        "dateModified": "2025-01-01",
+        "inLanguage": "en-IN",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://epsatmfranchise.com/atm-franchise/"
+        },
+        "isPartOf": {
+          "@id": "https://epsatmfranchise.com/#website"
+        }
       },
+
       {
         "@type": "Service",
-        "@id": "https://epsatmfranchise.com/atm-franchise#service",
-        "serviceType": "ATM Franchise in India",
+        "@id": "https://epsatmfranchise.com/atm-franchise/#service",
+        "serviceType": "ATM Franchise Opportunity in India",
         "provider": {
-          "@type": "Organization",
-          "name": "EPS ATM Franchise"
+          "@id": "https://epsatmfranchise.com/#organization"
         },
         "areaServed": {
           "@type": "Country",
@@ -88,14 +99,18 @@ export default function ATMFranchisePage() {
           "priceCurrency": "INR",
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "price": "300000",
             "minPrice": "300000",
-            "maxPrice": "500000"
-          }
+            "maxPrice": "500000",
+            "priceCurrency": "INR"
+          },
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2026-12-31"
         }
       },
+
       {
         "@type": "FAQPage",
+        "@id": "https://epsatmfranchise.com/atm-franchise/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -103,7 +118,7 @@ export default function ATMFranchisePage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "The investment typically ranges between ₹3 Lakhs to ₹5 Lakhs depending on location, infrastructure, and operator framework."
+                "The investment typically ranges between ₹3 Lakhs to ₹5 Lakhs depending on location, infrastructure setup and operator model."
             }
           },
           {
@@ -112,7 +127,7 @@ export default function ATMFranchisePage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "ATM franchise earnings depend on transaction volume. Commission is typically calculated per withdrawal transaction under the regulated interchange model."
+                "Commission depends on transaction volume. Earnings are calculated per financial and non-financial transaction under the regulated interchange fee model."
             }
           },
           {
@@ -121,11 +136,12 @@ export default function ATMFranchisePage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "A ground-floor commercial space with electricity, visibility, and stable connectivity is typically required for ATM installation."
+                "A ground-floor commercial space with 25–40 sq ft area, electricity connection, proper visibility and connectivity is generally required."
             }
           }
         ]
       }
+
     ]
   };
 

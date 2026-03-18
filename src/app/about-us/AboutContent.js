@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Target, Lightbulb, ArrowRight, Phone, ShieldCheck,Lock,Handshake,Scale,FileCheck } from "lucide-react";
-import RecentInstallations from "../components/RecentInstallations"
+import RecentInstallations from "@/components/RecentInstallations";
 
 
 

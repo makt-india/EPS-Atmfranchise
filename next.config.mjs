@@ -3,7 +3,10 @@ const nextConfig = {
   /* config options here */
   reactCompiler: true,
     output: "export",
-  images: { unoptimized: true },
+  images: {
+    loader: 'custom',
+    loaderFile: './cf-image-loader.js',
+  },
     trailingSlash: true,
 
 

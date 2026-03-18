@@ -1,6 +1,6 @@
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
 import Script from "next/script";
 
@@ -17,19 +17,28 @@ export const metadata = {
 
   title: {
     default:
-      "ATM Franchise in India – Cost, Profit & EPS White Label Dealership",
+      "ATM Franchise in India 2026 – Cost, Commission, Profit & EPS Dealership Guide",
     template: "%s | EPS ATM Franchise",
   },
 
   description:
-    "Start an ATM franchise in India with low investment. Learn about ATM franchise cost, monthly profit, commission structure and how EPS white label ATM dealership works.",
+    "Complete guide to ATM franchise in India. Investment ₹3–5 Lakhs, commission structure, monthly income, ROI and EPS white label ATM dealership opportunity explained step-by-step.",
 
-  verification: {
-    google: "f7CK6QlryZb1I7sLwRF6qtJ9PPesNYgQrpo7QARrKqM",
-  },
+  keywords: [
+    "ATM franchise in India",
+    "ATM franchise cost",
+    "ATM franchise profit",
+    "white label ATM dealership",
+    "ATM business income India",
+    "EPS ATM franchise",
+  ],
 
   alternates: {
     canonical: "https://epsatmfranchise.com/",
+  },
+
+  verification: {
+    google: "f7CK6QlryZb1I7sLwRF6qtJ9PPesNYgQrpo7QARrKqM",
   },
 
   icons: {
@@ -44,11 +53,13 @@ export const metadata = {
 
   openGraph: {
     title:
-      "ATM Franchise in India – EPS White Label ATM Dealership",
+      "ATM Franchise in India 2026 – Cost, Profit & EPS White Label Dealership",
     description:
-      "Explore ATM franchise cost, earnings, and business model in India. EPS provides complete white label ATM dealership support.",
-    url: "https://epsatmfranchise.com",
+      "Explore ATM franchise cost, commission per transaction, ROI and business model in India. EPS provides full white label ATM dealership support.",
+    url: "https://epsatmfranchise.com/",
     siteName: "EPS ATM Franchise",
+    locale: "en_IN",
+    type: "website",
     images: [
       {
         url: "https://epsatmfranchise.com/og-banner.jpg",
@@ -57,22 +68,21 @@ export const metadata = {
         alt: "ATM Franchise Business Opportunity in India",
       },
     ],
-    locale: "en_IN",
-    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
     title:
-      "ATM Franchise in India – Cost & Profit Explained",
+      "ATM Franchise in India – Investment, Commission & Profit Explained",
     description:
-      "Learn how ATM franchise business works in India. Investment, income and dealership details.",
+      "Learn ATM franchise cost, earnings, ROI and how EPS white label ATM dealership works in India.",
     images: ["https://epsatmfranchise.com/og-banner.jpg"],
   },
 
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -97,27 +107,38 @@ export default function RootLayout({ children }) {
         "@type": "Organization",
         "@id": "https://epsatmfranchise.com/#organization",
         name: "EPS ATM Franchise",
-        url: "https://epsatmfranchise.com",
+        url: "https://epsatmfranchise.com/",
         logo: "https://epsatmfranchise.com/img/logo.webp",
         description:
-          "White label ATM franchise provider in India offering ATM dealership opportunities.",
-        areaServed: {
-          "@type": "Country",
-          name: "India",
+          "White label ATM franchise provider in India offering ATM dealership opportunities with recurring commission income.",
+        sameAs: [
+          "https://www.facebook.com/",
+          "https://www.linkedin.com/",
+          "https://twitter.com/",
+        ],
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+91-XXXXXXXXXX",
+          contactType: "sales",
+          areaServed: "IN",
+          availableLanguage: ["English", "Hindi"],
         },
       },
       {
         "@type": "WebSite",
         "@id": "https://epsatmfranchise.com/#website",
-        url: "https://epsatmfranchise.com",
-        name: "ATM Franchise in India – EPS",
+        url: "https://epsatmfranchise.com/",
+        name: "EPS ATM Franchise",
+        publisher: {
+          "@id": "https://epsatmfranchise.com/#organization",
+        },
       },
       {
         "@type": "Service",
         "@id": "https://epsatmfranchise.com/#service",
-        name: "White Label ATM Franchise",
+        name: "White Label ATM Franchise in India",
         description:
-          "ATM franchise dealership model in India with recurring commission income.",
+          "ATM franchise dealership model with low investment and recurring commission-based income.",
         provider: {
           "@id": "https://epsatmfranchise.com/#organization",
         },
@@ -128,56 +149,67 @@ export default function RootLayout({ children }) {
         offers: {
           "@type": "Offer",
           priceCurrency: "INR",
+          price: "300000",
           availability: "https://schema.org/InStock",
+          priceValidUntil: "2026-12-31",
         },
       },
     ],
   };
 
   return (
-    <html lang="en" className="scroll-smooth">
-      <head>
-        {/* JSON-LD Structured Data */}
+    <html lang="en" className="scroll-smooth" data-scroll-behavior="smooth">
+      <body
+        className={`${inter.variable} font-sans antialiased bg-white text-gray-900 selection:bg-blue-100 selection:text-blue-900`}
+      >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(jsonLd),
           }}
         />
-      </head>
 
-      <body
-        className={`${inter.variable} font-sans antialiased bg-white text-gray-900 selection:bg-blue-100 selection:text-blue-900`}
-      >
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-FVR1F27K6Q"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-FVR1F27K6Q');
-          `}
-        </Script>
+        <Script 
+          id="google-analytics" 
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-FVR1F27K6Q');
+            `
+          }}
+        />
 
         {/* Microsoft Clarity */}
-        <Script id="clarity" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "vd3493inoo");
-          `}
-        </Script>
-
+    
+    <Script
+  id="clarity"
+  strategy="lazyOnload"
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;
+        t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "vd3493inoo");
+    `,
+  }}
+/>
         <Navbar />
+
         <main className="min-h-screen">
           {children}
         </main>
+
         <Footer />
       </body>
     </html>

@@ -2,29 +2,34 @@ import CostRequirementsContent from "./CostRequirementsContent";
 
 export const metadata = {
   title:
-    "ATM Franchise Cost & Space Requirements in India (2025) | EPS Guide",
+    "ATM Franchise Cost in India 2025 – Investment, Space & Requirements Guide",
 
   description:
-    "Explore ATM franchise investment cost (₹3–5 Lakhs), refundable security deposit, electricity setup, space requirements (25–40 sq ft), and required documents for White Label ATM installation in India.",
+    "Complete breakdown of ATM franchise cost in India (₹3–5 Lakhs), refundable security deposit, 25–40 sq ft space requirement, electricity setup and required documents for White Label ATM installation.",
 
   alternates: {
-    canonical: "https://epsatmfranchise.com/cost-requirements",
+    canonical: "https://epsatmfranchise.com/cost-requirements/",
   },
 
   openGraph: {
     title:
-      "ATM Franchise Cost & Requirements in India (2025)",
+      "ATM Franchise Cost & Space Requirements in India (2025)",
     description:
-      "Complete breakdown of ATM franchise investment, space requirements, security deposit, and documentation process.",
-    url: "https://epsatmfranchise.com/cost-requirements",
+      "Detailed guide covering ATM investment cost, eligibility criteria, refundable deposit, electricity setup and documentation process.",
+    url: "https://epsatmfranchise.com/cost-requirements/",
     type: "article",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "ATM Franchise Cost & Requirements Guide",
+    title: "ATM Franchise Cost & Requirements (2025)",
     description:
-      "Understand ATM investment cost, eligibility, and setup requirements in India.",
+      "Understand ATM franchise investment, ROI factors and installation requirements in India.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -35,52 +40,57 @@ export default function CostRequirementsPage() {
 
       {
         "@type": "BreadcrumbList",
+        "@id": "https://epsatmfranchise.com/cost-requirements/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://epsatmfranchise.com"
+            "item": "https://epsatmfranchise.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Cost & Requirements",
-            "item": "https://epsatmfranchise.com/cost-requirements"
+            "name": "ATM Franchise Cost & Requirements",
+            "item": "https://epsatmfranchise.com/cost-requirements/"
           }
         ]
       },
 
       {
         "@type": "Article",
-        "@id": "https://epsatmfranchise.com/cost-requirements#article",
+        "@id": "https://epsatmfranchise.com/cost-requirements/#article",
         "headline":
-          "ATM Franchise Cost & Space Requirements in India (2025)",
+          "ATM Franchise Cost in India 2025 – Investment, Space & Eligibility Guide",
         "description":
-          "Detailed explanation of ATM franchise investment, refundable deposit, space size, electricity requirements, and documentation process.",
+          "Detailed explanation of ATM franchise investment, refundable deposit, required space, electricity specifications and documentation process.",
+        "image": "https://epsatmfranchise.com/og-banner.jpg",
         "author": {
           "@type": "Organization",
+          "@id": "https://epsatmfranchise.com/#organization",
           "name": "EPS ATM Franchise"
         },
         "publisher": {
-          "@type": "Organization",
-          "name": "EPS ATM Franchise",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://epsatmfranchise.com/img/logo.webp"
-          }
+          "@id": "https://epsatmfranchise.com/#organization"
         },
-        "mainEntityOfPage":
-          "https://epsatmfranchise.com/cost-requirements"
+        "datePublished": "2025-01-01",
+        "dateModified": "2025-01-01",
+        "inLanguage": "en-IN",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://epsatmfranchise.com/cost-requirements/"
+        },
+        "isPartOf": {
+          "@id": "https://epsatmfranchise.com/#website"
+        }
       },
 
       {
         "@type": "Service",
-        "@id": "https://epsatmfranchise.com/cost-requirements#service",
-        "serviceType": "ATM Franchise Setup",
+        "@id": "https://epsatmfranchise.com/cost-requirements/#service",
+        "serviceType": "ATM Franchise Setup & Installation",
         "provider": {
-          "@type": "Organization",
-          "name": "EPS ATM Franchise"
+          "@id": "https://epsatmfranchise.com/#organization"
         },
         "areaServed": {
           "@type": "Country",
@@ -92,13 +102,16 @@ export default function CostRequirementsPage() {
           "priceSpecification": {
             "@type": "PriceSpecification",
             "minPrice": "300000",
-            "maxPrice": "500000"
-          }
+            "maxPrice": "500000",
+            "priceCurrency": "INR"
+          },
+          "availability": "https://schema.org/InStock"
         }
       },
 
       {
         "@type": "FAQPage",
+        "@id": "https://epsatmfranchise.com/cost-requirements/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -106,7 +119,7 @@ export default function CostRequirementsPage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "The investment typically ranges between ₹3 Lakhs to ₹5 Lakhs depending on location, infrastructure, and operator framework."
+                "The total investment typically ranges between ₹3 Lakhs to ₹5 Lakhs depending on location, infrastructure setup and operator model."
             }
           },
           {
@@ -115,7 +128,7 @@ export default function CostRequirementsPage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "A ground-floor space of approximately 25–40 square feet with electricity connection and structural suitability is generally required."
+                "A ground-floor space of approximately 25–40 square feet with proper visibility, electricity connection and structural suitability is generally required."
             }
           },
           {
@@ -124,16 +137,16 @@ export default function CostRequirementsPage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "Security deposits are typically refundable as per operator agreement terms and conditions."
+                "Security deposits are typically refundable based on operator agreement terms and conditions."
             }
           },
           {
             "@type": "Question",
-            "name": "What are the electricity requirements for ATM installation?",
+            "name": "What electricity setup is needed for ATM installation?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "A dedicated single-phase electricity connection with proper grounding is generally required for ATM deployment."
+                "A dedicated single-phase electricity connection with grounding and power backup provision is generally required for ATM deployment."
             }
           },
           {
@@ -142,7 +155,7 @@ export default function CostRequirementsPage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "Common documents include identity proof, address proof, property ownership or lease agreement, photographs, and bank details."
+                "Identity proof, address proof, property ownership or lease agreement, photographs, bank details and KYC documents are commonly required."
             }
           }
         ]
