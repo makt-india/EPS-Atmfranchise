@@ -4,8 +4,7 @@ const nextConfig = {
   reactCompiler: true,
     output: "export",
   images: {
-    loader: 'custom',
-    loaderFile: './cf-image-loader.js',
+    unoptimized: true,
   },
     trailingSlash: true,
 
